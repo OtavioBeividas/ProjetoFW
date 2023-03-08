@@ -201,3 +201,10 @@ a {
   text-align: center;
   margin-top: 2rem;
 }
+
+/* SOBRE */
+.sobreFotos{
+    margin-top: 2rem;
+    display: inline-block;
+    text-align: center;
+}
