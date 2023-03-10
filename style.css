@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.hero {
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.cta {
+  display: inline-block;
+  background-color: #fff;
+  color: #222;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.features {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.feature {
+  width: 30%;
+  margin-bottom: 2rem;
+}
+
+.feature img {
+  max-width: 100%;
+  height: auto;
+}
+
+.feature h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.testimonials {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.testimonial img {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.testimonial p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.testimonial h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+body {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Adicionando cinza e preto para o cabeçalho */
+header {
+  background-color: #333;
+  color: #f2f2f2;
+}
+
+/* Adicionando cinza e preto para a calculadora de TDEE */
+#tdee {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Adicionando cinza e preto para os botões */
+button {
+  background-color: #333;
+  color: #f2f2f2;
+}
+
+/* Adicionando cinza e preto para os links */
+a {
+  color: #333;
+}
+
+
+.calculator {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.calculator h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.calculator form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.calculator label {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.calculator input[type="number"],
+.calculator select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.calculator button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.calculator #result {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+}
