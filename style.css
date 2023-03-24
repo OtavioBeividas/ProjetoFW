@@ -67,6 +67,7 @@ nav ul li a {
 .feature {
   width: 30%;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .feature img {
@@ -157,6 +158,8 @@ a {
   max-width: 600px;
   margin: 0 auto;
   padding: 2rem;
+  text-align: center;
+  font-weight: bold;
 }
 
 .calculator h2 {
@@ -180,6 +183,7 @@ a {
 
 .calculator input[type="number"],
 .calculator select {
+  text-align: center;
   width: 100%;
   padding: 0.5rem;
   font-size: 1.2rem;
