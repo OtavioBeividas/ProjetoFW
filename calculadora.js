@@ -16,11 +16,27 @@
    
      // Calculando o TDEE
      let bmr;
-   
+     
+     if (activity === '2'){
+      activity.value = 1.375
+     }
+     else if (activity === '3'){
+      activity.value = 1.55
+     }
+     else if (activity === '4'){
+      activity.value = 1.725
+     }
+     else if (activity === '5'){
+      activity.value = 1.9
+     }
+     else {
+      activity.value = 1.1
+     }
+
      if (gender === 'male') {
-       bmr = 88.36 + (13.4 * weight) + (4.8 * height) - (5.7 * age);
+       bmr = 88.36 + (13.4 * weight) + (4.8 * height) - (5.7 * age) * activity;
      } else {
-       bmr = 447.6 + (9.2 * weight) + (3.1 * height) - (4.3 * age);
+       bmr = 447.6 + (9.2 * weight) + (3.1 * height) - (4.3 * age) * activity;
      }
    
      const tdee = bmr;

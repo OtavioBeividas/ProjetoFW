@@ -81,6 +81,51 @@ nav ul li a {
   font-size: 1.5rem;
 }
 
+.suplementosClass {
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem;
+  text-align: center;
+}
+
+.whey {
+  width: 30%;
+  margin-bottom: 2rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.whey img {
+  max-width: 100%;
+  height: auto;
+}
+
+.creatina {
+  width: 30%;
+  margin-bottom: 2rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.creatina img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hipercalorico img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hipercalorico {
+  width: 30%;
+  margin-bottom: 2rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
 .testimonials {
   max-width: 800px;
   margin: 0 auto;
