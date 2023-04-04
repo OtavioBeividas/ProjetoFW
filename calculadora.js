@@ -6,7 +6,7 @@
  function calculateTDEE(event) {
      // Prevenindo o envio do formulário
      event.preventDefault();
-   
+
      // Obtendo os valores dos campos do formulário
      const age = Number(document.querySelector('#age').value);
      const gender = document.querySelector('#gender').value;
@@ -18,16 +18,16 @@
      let bmr;
      
      if (activity === '2'){
-      activity.value = 1.375
+      activity.value = 1.9
      }
      else if (activity === '3'){
-      activity.value = 1.55
-     }
-     else if (activity === '4'){
       activity.value = 1.725
      }
+     else if (activity === '4'){
+      activity.value = 1.55
+     }
      else if (activity === '5'){
-      activity.value = 1.9
+      activity.value = 1.375
      }
      else {
       activity.value = 1.1
@@ -38,8 +38,8 @@
      } else {
        bmr = 447.6 + (9.2 * weight) + (3.1 * height) - (4.3 * age) * activity;
      }
-   
-     const tdee = bmr;
+     teste = bmr * 1.57
+     const tdee = teste;
    
      // Exibindo o resultado
      resultDiv.textContent = `Seu TDEE é de ${tdee.toFixed(2)} calorias por dia.`;
